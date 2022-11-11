@@ -1,0 +1,66 @@
+.container {
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  height: 80vh;
+  width: 30vw;
+  background-color: #150b3e;
+  border-radius: 8px;
+  color: white;
+  padding: 30px;
+}
+.heading {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: white;
+  text-align: center;
+}
+.full-name {
+  padding-left: 10px;
+}
+.name {
+  color: #7c3aed;
+  text-align: center;
+  font-weight: bold;
+}
+.heading-container {
+  display: flex;
+}
+.name2 {
+  color: #585076;
+  font-weight: bold;
+}
+.name3 {
+  color: #585076;
+  font-size: 12px;
+  font-weight: bold;
+}
+.amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.withdraw {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sum {
+  color: #585076;
+  font-weight: 600;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: -5px;
+  margin-left: -40px;
+}
